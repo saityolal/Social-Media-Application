@@ -12,7 +12,7 @@ import jakarta.persistence.*;
 import jakarta.validation.constraints.*;
 
 @JsonIgnoreProperties({"password", "age", "id"})// That annotation makes the field name or variable  disappear in Json file if it exists
-@Entity(name = "user_details")
+@Entity
 public class User {
 
 

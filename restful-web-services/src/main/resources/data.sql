@@ -1,3 +1,6 @@
+-- This will only be executed in memory database
+
+
 insert into user_details(id, birth_date, name)
 values(10001, current_date(), 'john');
 insert into user_details(id, birth_date, name)
